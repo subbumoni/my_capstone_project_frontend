@@ -1,0 +1,165 @@
+/* App.css */
+
+/* Container for the signup form */
+.signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f7f7f7;
+  padding: 20px;
+}
+
+/* Card container for the form */
+.card {
+  width: 100%;
+  max-width: 500px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Card body styling */
+.card-body {
+  padding: 40px;
+}
+
+/* Input container styling */
+.inputcontainer {
+  margin-bottom: 20px;
+}
+
+/* Label styling */
+.inputcontainer label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+/* Input field styling */
+.inputcontainer input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  transition: border-color 0.3s;
+}
+
+.inputcontainer input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* Error message styling */
+.errors {
+  color: #ff4d4f;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+/* Button styling */
+.d-grid .btn {
+  background-color: #007bff;
+  border: none;
+  padding: 15px;
+  font-size: 18px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.d-grid .btn:hover {
+  background-color: #0056b3;
+}
+
+/* Spinner styling */
+.spinner-border {
+  margin-top: 20px;
+  color: #007bff;
+}
+
+
+
+
+
+/* App.css */
+
+/* Container for the login form */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f2f5;
+  padding: 20px;
+}
+
+/* Card container for the form */
+.card {
+  width: 100%;
+  max-width: 400px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Card body styling */
+.card-body {
+  padding: 30px;
+}
+
+/* Input container styling */
+.inputcontainer {
+  margin-bottom: 20px;
+}
+
+/* Label styling */
+.inputcontainer label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+/* Input field styling */
+.inputcontainer input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  transition: border-color 0.3s;
+}
+
+.inputcontainer input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* Error message styling */
+.errors {
+  color: #ff4d4f;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+/* Button styling */
+.d-grid .btn {
+  background-color: #007bff;
+  border: none;
+  padding: 12px;
+  font-size: 18px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.d-grid .btn:hover {
+  background-color: #0056b3;
+}
+
+/* Spinner styling */
+.spinner-border {
+  margin-top: 20px;
+  color: #007bff;
+}
