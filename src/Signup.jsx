@@ -37,7 +37,7 @@ export default function Signup() {
         //   API Storing Area;
         onSubmit={(values, { setSubmitting }) => {
           setSubmitting(true);
-          fetch("http://localhost:4000/users", {
+          fetch("https://backend-backend-1.onrender.com/users", {
             method: "POST",
             headers: {
               "Content-type": "application/json",

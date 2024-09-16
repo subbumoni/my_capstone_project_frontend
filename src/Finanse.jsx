@@ -101,7 +101,9 @@ function Finanse() {
   };
 
   const deleteTransaction = async (id) => {
-    await axios.delete(`http://localhost:4000/api/transactions/${id}`);
+    await axios.delete(
+      `https://backend-backend-1.onrender.com/api/transactions/${id}`
+    );
     fetchTransactions();
   };
 
