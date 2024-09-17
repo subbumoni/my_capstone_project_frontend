@@ -32,7 +32,9 @@ function Finanse() {
   }, []);
 
   const fetchTransactions = async () => {
-    const response = await axios.get("http://localhost:4000/api/transactions");
+    const response = await axios.get(
+      "https://backend-backend-1.onrender.com/api/transactions"
+    );
     setTransactions(response.data);
     calculateTotals(response.data);
   };
@@ -71,7 +73,7 @@ function Finanse() {
       }
 
       await axios.post(
-        "http://localhost:4000/api/transactions/addtransaction",
+        "https://backend-backend-1.onrender.com/api/transactions/addtransaction",
         newTransaction
       );
       setDescription("");
@@ -88,7 +90,7 @@ function Finanse() {
         amount: parseFloat(amount), //Update the amount
       };
       await axios.put(
-        `http://localhost:4000/api/transactions/${editTransaction._id}`,
+        `https://backend-backend-1.onrender.com/api/transactions/${editTransaction._id}`,
         updatedTransaction
       );
       setDescription("");
